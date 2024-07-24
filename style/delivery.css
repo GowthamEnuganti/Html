@@ -1,0 +1,16 @@
+.model{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-bottom: 3px;
+}
+.order{
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.pan:hover{
+  color: rgb(192, 50, 50);
+  text-decoration: underline;
+  cursor: pointer;
+}

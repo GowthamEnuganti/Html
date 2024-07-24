@@ -1,0 +1,49 @@
+.amazon-link:hover{
+  color: rgb(24, 10, 10);      
+ }
+ .black{
+   font-size: 25px;
+   font-weight: bold;
+   box-shadow: 5px,5px,10px rgb(0,0,0,0.15);
+ }
+ .black:hover{
+   color: blue;
+   transition: opacity 1s;
+  
+ }
+ .buy-button:active{
+   opacity: 1s;
+ }
+ .money{
+   color: green;
+ }
+ button{
+   background-color: rgb(250, 250, 99);
+   border-radius: 10px;
+   color: black;
+   height: 30px;
+   width: 100px;
+   cursor: pointer;
+   margin-right: 10px;
+   transition: opacity 0.1s;
+ }
+ .buy-button{
+  background-color: rgb(247, 187, 76);
+   border-radius: 10px;
+   color: black;
+   height: 30px;
+   width: 100px;
+   cursor: pointer;
+   font-size: 13px ;
+   transition: opacity 1s;
+   box-shadow: 5px 5px 10px rgb(0,0,0,0.15);
+ }
+ .buy-button:hover{
+   background-color: rgb(89, 0, 255);
+   opacity: 0.8;
+   box-shadow: 5px 5px 10px rgb(0,0,0,0.15);
+ }
+ .buy-button:active{
+   background-color: hotpink;
+   opacity: 0.5;
+ }
