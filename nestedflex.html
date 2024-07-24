@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Flex</title>
+  <style>
+    .container{
+      display: flex;
+      flex-direction: row;
+      width: 500px;
+      border-color: white;
+      border-style: solid;
+      border-radius: 4px;
+      margin-top: 10px;
+      margin-left: 20px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    }
+    .content{
+      margin-right: 10px;
+    }
+    .thumb{
+      width: 50px;
+      border-radius: 20px;
+      object-fit: cover;
+      margin-top: 10px;
+      
+    }
+    .simple{
+      flex: 1;
+    }
+    .super{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 5px;
+      margin-top: 10px;
+    }
+    .dev{
+      font-weight: bold;
+      margin-right: 5px;
+    }
+    .div{
+      color: rbg(111,111,111);
+    }
+    .para{
+      line-height: 20px;
+      margin-bottom: 15px;
+    }
+    .contain{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 400px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+      border-radius: 4px;
+      margin-top: 20px;
+      margin-left: 20px;
+    
+    }
+    .inbox{
+      font-size: 14px;
+      color: rgb(120, 120, 120);
+      margin-bottom: 20px;
+  
+    }
+    .contains{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px;
+
+    }
+    .profile{
+      margin-right: 10px;
+    }
+    .prof{
+      width: 50px;
+     height: 50px;
+     object-fit: cover;
+     border-radius: 25px;
+    }
+    .nice{
+      flex: 1;
+    }
+    .nike{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3px;
+    }
+    .para1{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .time{
+      font-size: 14px;
+      color: rgb(120, 120, 120);
+    }
+    .para2{
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .para3{
+      color: rgb(120, 120, 120);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <img class="thumb" src="thumbnails/download.jfif">
+    </div>
+    <div class="simple" >
+      <div class="super">
+        <div class="dev" >SuperSimple.dev</div>
+        <div class="div">@SuperSimpleDev</div>
+      </div>
+      <div class="para">
+        what is backend web development? A complete overview. New Video is Up!
+      </div>
+
+    </div>
+  </div>
+
+  <Div class="contain">
+   
+      <div class="inbox">All Inboxes</div>
+      <div class="contains">
+    <div class="profile" >
+      <img class="prof" src="thumbnails/cheetah.jfif">
+
+    </div>
+    <div class="nice">
+      <div class="nike">
+        <div class="para1">Chewy promotions</div>
+        <div class="time">4:58 PM</div>
+        
+        </div>
+        <div class="para2">Biggest sales of the year</div>
+        <div class="para3">Hey there! we're writing to tell you about out..</div>
+    </div>
+    </div>
+    <div class="contains">
+      <div class="profile" >
+        <img class="prof" src="thumbnails/dog.jpg">
+    
+      </div>
+      <div class="nice">
+        <div class="nike">
+          <div class="para1">Best Buy</div>
+          <div class="time">12:32 PM</div>
+          </div>
+          <div class="para2">Your Best Buy eReceipt</div>
+          <div class="para3">Thank you for shopping at Best Buy, here is...</div>
+       </div>
+      </div>
+      <div class="contains">
+        <div class="profile" >
+          <img class="prof" src="thumbnails/lion.jfif">
+    
+        </div>
+        <div class="nice">
+          <div class="nike">
+            <div class="para1">Netflix</div>
+            <div class="time">9:00 AM</div>
+            </div>
+            <div class="para2">Here's what's coming soon to Netflix</div>
+            <div class="para3">Brand new movies and shows, old favorites...</div>
+         
+        </div>
+  </Div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube</title>
+  <style>
+    .thumb{
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+      object-position: right;
+      margin-bottom: 50px;
+      margin-right: 450px;     
+      
+    }
+    .text{
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Arial;
+      padding-left: 10px;
+      margin-left: 0px;
+      margin-right: 450px;
+      text-align: left;
+      
+    }
+    .google{
+      border: none;
+      margin-top: 100px;
+      margin-left:00px;
+      box-shadow: 1px 1px 2px rgba(0,0,0,1);
+      padding-left: 10px;
+      padding-right: 70px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 10px;
+      margin-bottom: 100px;
+    }
+    .email{
+      margin-bottom: 3px;
+      padding-right: 40px;
+    }
+    .type{
+      border-radius: 7px;
+      padding-left: 100px;
+    }
+    .agree{
+      font-size: 11.5px;
+    
+    }
+    .join{
+      background-color: rgb(55, 55, 243);
+      border-color: none;
+      border-radius: 10px;
+      color: white;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      margin-bottom: 100px;
+      margin-right: 500px;
+    }
+    .join:hover{
+      color: chocolate;
+      background-color: cornsilk;
+    
+    }
+    .tumb{
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+    .happen{
+      font-size: 18px;
+      border: none;
+      width: 300px;
+      vertical-align: middle;
+    }
+    .tweet{
+      background-color: rgb(39, 116, 218);
+      color: white;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border-radius: 30px;
+      border: none;
+      vertical-align: middle;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .tweet:hover{
+      background-color: white;
+      color: rgb(39, 116, 218);
+    }
+  </style>
+</head>
+<body>
+  <img  class="thumb" src="thumbnails/hq720.webp">
+  <input class="text" type="text" placeholder="search">
+  <input class="google" type="text" placeholder="search Google or type a URL">
+  <p class="email">Email</p>
+  <input class="type" type="text">
+  <p class="agree">
+    By Clicking Agree & Join, You agree to the Privacy Policy.
+  </p>
+  <button class="join">Agree & Join</button>
+  <img class="tumb" src="thumbnails/download.jfif">
+  <input class="happen" type="text" placeholder="What's happening?">
+  <button class="tweet">Tweet</button>
+</body>
+</html>

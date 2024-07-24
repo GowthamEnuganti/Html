@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position Absolute</title>
+  <style>
+    .cross{
+      position: absolute;
+      font-family: Arial;
+      font-size: 22px;
+      font-weight: 500;
+      background-color: black;
+      color: white;
+      width: 20px;
+      border-radius: 17px;
+      padding-left: 8px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-right: 0px;
+      right: 20px;
+      top: 10px;
+      
+    }
+    .box{
+      position: fixed;
+      width: 320px;
+      height: 180px;
+      background-color: gray;
+      bottom: 20px;
+      right: 20px;
+    }
+    .crossword{
+      position: absolute;
+      font-family: Arial;
+      font-size: 23px;
+      font-weight: 500;
+      background-color: black;
+      color: white;
+      width: 30px;
+      border-radius: 20px;
+      padding-left: 3px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      padding-right: 2px;
+      left: -9px;
+      top: -5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .time{
+      position: absolute;
+      background-color: black;
+      color: white;
+      bottom: 4px;
+      right: 5px;
+      padding-right: 2px;
+      padding-left: 2px;
+    }
+    .shirt{
+      position: relative;
+      display: flex;
+      display: inline-block;
+    }
+    .shirt1{
+      width: 200px;
+      object-fit: cover;
+      
+    }
+    .off{
+      position: absolute;
+      background-color: black;
+      color: white;
+      top: 6px;
+      right: 3px;
+      padding-right: 2px;
+      padding-left: 2px;
+    }
+    .shirt2{
+      position: relative;
+      display:inline-block;
+      margin-left: 100px  ;
+    }
+    .bottom{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 70px;
+      background-color: rgba(255, 255, 255, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .button{
+      background-color: white;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 15px;
+    }
+  </style>
+
+</head>
+<body style="
+height: 3000px;">
+  <div class="cross">x</div>
+  <div class="box">
+    <div class="crossword">x</div>
+    <div class="time">5:00</div>
+  </div>
+  <div class="shirt">
+    <img class="shirt1" src="thumbnails/shirt.jfif">
+    <div class="off">20% OFF</div>
+  </div>
+  <div class="shirt2">
+    <img class="shirt1" src="thumbnails/shirt.jfif">
+    <div class="off">20% OFF</div>
+    <div class="bottom">
+      <button class="cart">Add to cart</button>
+
+    </div>
+  </div>
+</body>
+</html>
