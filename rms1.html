@@ -2,25 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modal Dialog</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/RMS1.css">
+  <title>RMS 1</title>
 </head>
-<body>
-  <div class="modal">
-    <div class="modal-content">
-      <div class="modal-header">
-        <span class="modal-title">Interested</span>
-        <span class="close-button">&times;</span>
-      </div>
-      <div class="modal-body">
-        <p>Are you Interested in the Resource "Dawna Mariya"</p>
-      </div>
-      <div class="modal-footer">
-        <button class="modal-button yes-button">Yes</button>
-        <button class="modal-button no-button">No</button>
+<body style="height: 1000px;">
+   <hr width="100%" color="black" size="1"> 
+   <div class="header">
+    <div class="head">
+     <h3 class="RMS">Resource Management System</h3>
+     <img class="bell" src="thumbnails/bell.png">
+     <div class="head-block">
+      <button class="u">U</button>
+      <div class="user-emp">
+        <h4 class="user">User B</h4>
+        <p class="emp">Employee</p>
       </div>
     </div>
   </div>
+    <div class="second">
+      <input  class="search" type="text" placeholder="Search Resource Name...">
+      <input class="filter" type="text" placeholder="Filter">
+      <input class="skill" type="text" placeholder="Skill">
+      <input class="location" type="text" placeholder="Location">
+      <input class="years" type="text" placeholder="Years of Exp....">
+    </div>
+    <table style="width: 100%;">
+      <tr>
+        <th class="resource" rowspan="2">Resource Name</th>
+        <th class="yea" colspan="30">April 2024</th>
+      </tr>
+      <tr>
+        <td class="space">Mon 1</td>
+        <td class="space">Tue 2</td>
+        <td class="space">Wed 3</td>
+        <td class="space">Thur 4</td>
+        <td class="space">Fri 5</td>
+        <td class="space">Sat 6</td>
+        <td class="space">Sun 7</td>
+        <td class="space">Mon 8</td>
+        <td class="space">Tue 9</td>
+        <td class="space">Wed 10</td>
+        <td class="space">Thur 11</td>
+        <td class="space">Fri 12</td>
+        <td class="space">Sat 13</td>
+        <td class="space">Sun 14</td>
+        <td class="space">Mon 15</td>
+        <td class="space">Tue 16</td>
+        <td class="space">Wed 17</td>
+        <td class="space">Thur 18</td>
+        <td class="space">Fri 19</td>
+        <td class="space">Sat 20</td>
+        <td class="space">Sun 21</td>
+        <td class="space">Mon 22</td>
+        <td class="space">Tue 23</td>
+        <td class="space">Wed 24</td>
+        <td class="space">Thur 25</td>
+        <td class="space">Fri 26</td>
+        <td class="space">Sat 27</td>
+        <td class="space">Sun 28</td>
+        <td class="space">Mon 29</td>
+        <td class="space">Tue 30</td>
+      </tr>
+      <tr>
+        <th>Saritha</th>
+        <td class="free-container" colspan="30">
+          <div class="free">Free Pool : Resource Available for Project</div>
+        </td>
+      </tr>
+      <tr>
+        <th>Dawna Mariya</th>
+        <td class="free-contain" colspan="30">
+        <div class="class" colspan="30">Soft Blocked by SIL-20090</div>
+      </td>
+      </tr>
+    </table>
+  </div>
 </body>
-</html>
+</html> 
